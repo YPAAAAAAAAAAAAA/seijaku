@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>seijaku</title>
+<link rel="stylesheet" href="seijaku.css">
+<!-- LICENSE.txt -->
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<button id="toggle" type="button" aria-label="Notes" aria-expanded="false">i</button>
+<div id="panel">
+  <p id="where">Entrance garden</p>
+  <p class="lbl">Season</p>
+  <div id="seasons">
+    <button type="button" data-s="spring">Spring</button>
+    <button type="button" data-s="summer">Summer</button>
+    <button type="button" data-s="autumn" class="on">Autumn</button>
+    <button type="button" data-s="winter">Winter</button>
+  </div>
+  <p class="lbl">Rooms</p>
+  <div id="jumps"></div>
+  <p class="note">Hinoki, tatami, washi, stone and indigo linen, shaped as you walk. Ambience begins with the first touch.</p>
+  <p class="credit">idea after @mengto (mengto/seijaku); clean-room implementation, no code copied</p>
+</div>
+<p id="foot">Scroll to walk · drag to look<small>idea after @mengto (mengto/seijaku); clean-room implementation, no code copied</small></p>
+<div id="shot" aria-hidden="true">
+  <span class="mk a"></span><span class="mk b"></span><span class="mk c"></span><span class="mk d"></span>
+  <p id="cap">Entrance garden</p>
+</div>
+<script src="seijaku.js"></script>
+</body>
+</html>
