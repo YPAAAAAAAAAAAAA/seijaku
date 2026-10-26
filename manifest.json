@@ -1,0 +1,20 @@
+{
+  "id": "seijaku",
+  "title": {
+    "en": "seijaku",
+    "zh": "静寂"
+  },
+  "intro": {
+    "en": "A continuous walk through a procedural Kyoto house. Scroll from the entrance garden through the genkan, paper screens, tea room, koi court, bedroom and bath, and drag to look. Seasons change the garden.",
+    "zh": "沿着一条连续路径走进程序生成的京都宅邸。滑动从入口庭园穿过玄关、障子、茶室、锦鲤中庭、卧室与浴室，拖动即可环顾。四季会改换庭园的颜色与光线。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/seijaku.css",
+    "vendor/seijaku.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/seijaku"
+}
